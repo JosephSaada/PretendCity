@@ -1,10 +1,10 @@
 html {
     background-color: #FFF3F3;
     font-family: 'Inter';
+    color: #51504C;
 }
 
 h2 {
-    color: #51504C;
     font-size: 1.3em;
 }
 
@@ -50,4 +50,32 @@ h2 {
 .carousel {
     padding-top: 1em;
     display: flex;
+}
+
+/* current date */
+.currDate {
+    font-family: 'Inter';
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-top: 1em 0.1em;
+}
+
+/* card big styling */
+.cardBig {
+    background-color: #545EE2;
+    color: white;
+    border-radius: 15px;
+    padding: 1.2em;
+    width: 17.5em;
+    margin-left: 0.8em;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.cardBigTitle {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.cardBigDesc {
+    font-size: 0.8em;
 }
