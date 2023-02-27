@@ -2,6 +2,11 @@ import './App.css';
 import pcCharacter from './assets/pcCharacter.png';
 import nfcPhoneIcon from './assets/nfcPhoneIcon.png';
 import mapIcon from './assets/mapIcon.png';
+import marinaIcon from './assets/marinaIcon.png';
+import beachIcon from './assets/beachIcon.png';
+import homeIcon from './assets/homeIcon.png';
+import constructionIcon from './assets/constructionIcon.png';
+import traderJoesIcon from './assets/traderJoesIcon.png';
 
 function App() {
   const date = new Date();
@@ -36,6 +41,23 @@ function App() {
           purchases, Tap2Play is able to reroute your
           device to our platform. Watch the video below
           to learn more.
+        </div>
+      </div>
+      <div className='navbar'>
+        <div className='flex-item'>
+          <img id='marinaIcon' src={marinaIcon}/>
+        </div>
+        <div className='flex-item'>
+          <img id='beachIcon' src={beachIcon}/>
+        </div>
+        <div className='flex-item'>
+          <img id='homeIcon' src={homeIcon}/>
+        </div>
+        <div className='flex-item'>
+          <img id='constructionIcon' src={constructionIcon}/>
+        </div>
+        <div className='flex-item'>
+          <img id='traderJoesIcon' src={traderJoesIcon}/>
         </div>
       </div>
     </div>
